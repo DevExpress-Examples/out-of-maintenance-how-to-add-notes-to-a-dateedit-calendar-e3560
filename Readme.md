@@ -1,3 +1,20 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MyButtonEditPainter.cs](./CS/Task26/MyButtonEditPainter.cs) (VB: [MyButtonEditPainter.vb](./VB/Task26/MyButtonEditPainter.vb))
+* [MyDateEdit.cs](./CS/Task26/MyDateEdit.cs) (VB: [MyDateEditCalendar.vb](./VB/Task26/MyDateEditCalendar.vb))
+* [MyDateEditCalendar.cs](./CS/Task26/MyDateEditCalendar.cs) (VB: [MyDateEditCalendar.vb](./VB/Task26/MyDateEditCalendar.vb))
+* [MyDateEditCalendarPainter.cs](./CS/Task26/MyDateEditCalendarPainter.cs) (VB: [MyDateEditCalendarPainter.vb](./VB/Task26/MyDateEditCalendarPainter.vb))
+* [MyDateEditViewInfo.cs](./CS/Task26/MyDateEditViewInfo.cs) (VB: [MyDateEditViewInfo.vb](./VB/Task26/MyDateEditViewInfo.vb))
+* [Note.cs](./CS/Task26/Note.cs) (VB: [NoteForm.vb](./VB/Task26/NoteForm.vb))
+* [NoteForm.cs](./CS/Task26/NoteForm.cs) (VB: [NoteForm.vb](./VB/Task26/NoteForm.vb))
+* [PopupMyDateEditForm.cs](./CS/Task26/PopupMyDateEditForm.cs) (VB: [PopupMyDateEditForm.vb](./VB/Task26/PopupMyDateEditForm.vb))
+* [RepositoryItemMyDateEdit.cs](./CS/Task26/RepositoryItemMyDateEdit.cs) (VB: [RepositoryItemMyDateEdit.vb](./VB/Task26/RepositoryItemMyDateEdit.vb))
+* [SelectForm.cs](./CS/Task26/SelectForm.cs) (VB: [SelectForm.vb](./VB/Task26/SelectForm.vb))
+* [VistaMyDateEditCalendar.cs](./CS/Task26/VistaMyDateEditCalendar.cs) (VB: [VistaMyDateEditCalendar.vb](./VB/Task26/VistaMyDateEditCalendar.vb))
+* [VistaMyDateEditCalendarPainter.cs](./CS/Task26/VistaMyDateEditCalendarPainter.cs) (VB: [VistaMyDateEditCalendarPainter.vb](./VB/Task26/VistaMyDateEditCalendarPainter.vb))
+* [VistaPopupMyDateEditForm.cs](./CS/Task26/VistaPopupMyDateEditForm.cs) (VB: [VistaPopupMyDateEditForm.vb](./VB/Task26/VistaPopupMyDateEditForm.vb))
+<!-- default file list end -->
 # How to add notes to a DateEdit calendar
 
 
