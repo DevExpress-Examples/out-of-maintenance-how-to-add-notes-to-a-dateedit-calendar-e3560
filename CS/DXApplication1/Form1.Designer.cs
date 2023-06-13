@@ -29,10 +29,22 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject9 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject10 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject11 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject12 = new DevExpress.Utils.SerializableAppearanceObject();
             this.dateEdit1 = new DevExpress.XtraEditors.DateEdit();
             this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
             this.flyoutPanel1 = new DevExpress.Utils.FlyoutPanel();
@@ -44,8 +56,8 @@
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemDateEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemDateEdit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.flyoutPanel1)).BeginInit();
             this.flyoutPanel1.SuspendLayout();
@@ -67,13 +79,25 @@
             serializableAppearanceObject1.BorderColor = System.Drawing.Color.Transparent;
             serializableAppearanceObject1.Options.UseBackColor = true;
             serializableAppearanceObject1.Options.UseBorderColor = true;
+            serializableAppearanceObject2.BackColor = System.Drawing.Color.Transparent;
+            serializableAppearanceObject2.BorderColor = System.Drawing.Color.Transparent;
+            serializableAppearanceObject2.Options.UseBackColor = true;
+            serializableAppearanceObject2.Options.UseBorderColor = true;
+            serializableAppearanceObject3.BackColor = System.Drawing.Color.Transparent;
+            serializableAppearanceObject3.BorderColor = System.Drawing.Color.Transparent;
+            serializableAppearanceObject3.Options.UseBackColor = true;
+            serializableAppearanceObject3.Options.UseBorderColor = true;
+            serializableAppearanceObject4.BackColor = System.Drawing.Color.Transparent;
+            serializableAppearanceObject4.BorderColor = System.Drawing.Color.Transparent;
+            serializableAppearanceObject4.Options.UseBackColor = true;
+            serializableAppearanceObject4.Options.UseBorderColor = true;
+            editorButtonImageOptions2.Image = global::DXApplication1.Properties.Resources.Column_Priority;
             this.dateEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo, "", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, "", null, null, true),
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, false, true, DevExpress.XtraEditors.ImageLocation.MiddleCenter, global::DXApplication1.Properties.Resources.Column_Priority, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject2, "", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo, "", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, false, true, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, serializableAppearanceObject6, serializableAppearanceObject7, serializableAppearanceObject8, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.dateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.dateEdit1.Properties.CellSize = new System.Drawing.Size(50, 50);
-            this.dateEdit1.Properties.FirstDayOfWeek = System.DayOfWeek.Sunday;
             this.dateEdit1.Size = new System.Drawing.Size(247, 20);
             this.dateEdit1.TabIndex = 0;
             this.dateEdit1.Popup += new System.EventHandler(this.dateEdit1_Popup);
@@ -82,9 +106,9 @@
             // imageCollection1
             // 
             this.imageCollection1.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imageCollection1.ImageStream")));
-            this.imageCollection1.InsertGalleryImage("groupbyresource_16x16.png", "images/scheduling/groupbyresource_16x16.png", DevExpress.Images.ImageResourceCache.Default.GetImage("images/scheduling/groupbyresource_16x16.png"), 0);
-            this.imageCollection1.Images.SetKeyName(0, "groupbyresource_16x16.png");
-            this.imageCollection1.Images.SetKeyName(1, "Column_Priority.png");
+            this.imageCollection1.Images.SetKeyName(0, "add_32x32.png");
+            this.imageCollection1.Images.SetKeyName(1, "apply_32x32.png");
+            this.imageCollection1.Images.SetKeyName(2, "cancel_32x32.png");
             // 
             // flyoutPanel1
             // 
@@ -165,10 +189,9 @@
             this.repositoryItemDateEdit1.AutoHeight = false;
             this.repositoryItemDateEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo),
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, false, true, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject3, "", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, false, true, editorButtonImageOptions3, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.repositoryItemDateEdit1.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.repositoryItemDateEdit1.FirstDayOfWeek = System.DayOfWeek.Sunday;
             this.repositoryItemDateEdit1.Name = "repositoryItemDateEdit1";
             // 
             // Form1
