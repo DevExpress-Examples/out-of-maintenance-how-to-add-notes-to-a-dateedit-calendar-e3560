@@ -106,7 +106,7 @@ namespace DXApplication1
 
         private void gridView1_CustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e)
         {
-            Size pictureSize = imageCollection1.Images[0].Size;
+            Size pictureSize = new Size(16,16);
             if(e.Column == gridColumn3)
             {
                 foreach (DateTime specialDate in specialDays)
