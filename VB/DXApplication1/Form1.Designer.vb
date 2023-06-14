@@ -1,5 +1,7 @@
-﻿Namespace DXApplication1
-    Partial Public Class Form1
+Namespace DXApplication1
+
+    Partial Class Form1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,26 +12,35 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Windows Form Designer generated code"
-
+#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
         ''' </summary>
         Private Sub InitializeComponent()
-            Me.components = New System.ComponentModel.Container()
-            Dim serializableAppearanceObject1 As New DevExpress.Utils.SerializableAppearanceObject()
-            Dim serializableAppearanceObject2 As New DevExpress.Utils.SerializableAppearanceObject()
-            Dim resources As New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-            Dim serializableAppearanceObject3 As New DevExpress.Utils.SerializableAppearanceObject()
+            Dim editorButtonImageOptions1 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
+            Dim serializableAppearanceObject1 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+            Dim serializableAppearanceObject2 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+            Dim serializableAppearanceObject3 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+            Dim serializableAppearanceObject4 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+            Dim editorButtonImageOptions2 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
+            Dim serializableAppearanceObject5 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+            Dim serializableAppearanceObject6 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+            Dim serializableAppearanceObject7 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+            Dim serializableAppearanceObject8 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+            Dim editorButtonImageOptions3 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
+            Dim serializableAppearanceObject9 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+            Dim serializableAppearanceObject10 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+            Dim serializableAppearanceObject11 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+            Dim serializableAppearanceObject12 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
             Me.dateEdit1 = New DevExpress.XtraEditors.DateEdit()
-            Me.imageCollection1 = New DevExpress.Utils.ImageCollection(Me.components)
             Me.flyoutPanel1 = New DevExpress.Utils.FlyoutPanel()
             Me.flyoutPanelControl1 = New DevExpress.Utils.FlyoutPanelControl()
             Me.memoEdit1 = New DevExpress.XtraEditors.MemoEdit()
@@ -39,18 +50,17 @@
             Me.gridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
             Me.gridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn()
             Me.repositoryItemDateEdit1 = New DevExpress.XtraEditors.Repository.RepositoryItemDateEdit()
-            DirectCast(Me.dateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.dateEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.imageCollection1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.flyoutPanel1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.dateEdit1.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.dateEdit1.Properties.CalendarTimeProperties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.flyoutPanel1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.flyoutPanel1.SuspendLayout()
-            DirectCast(Me.flyoutPanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.flyoutPanelControl1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.flyoutPanelControl1.SuspendLayout()
-            DirectCast(Me.memoEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.gridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.gridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemDateEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemDateEdit1.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.memoEdit1.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.gridControl1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.gridView1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.repositoryItemDateEdit1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.repositoryItemDateEdit1.CalendarTimeProperties), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' dateEdit1
@@ -62,22 +72,26 @@
             serializableAppearanceObject1.BorderColor = System.Drawing.Color.Transparent
             serializableAppearanceObject1.Options.UseBackColor = True
             serializableAppearanceObject1.Options.UseBorderColor = True
-            Me.dateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { _
-                New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo, "", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, Nothing, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, "", Nothing, Nothing, True), _
-                New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, False, True, DevExpress.XtraEditors.ImageLocation.MiddleCenter, My.Resources.Column_Priority, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject2, "", Nothing, Nothing, True) _
-            })
-            Me.dateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+            serializableAppearanceObject2.BackColor = System.Drawing.Color.Transparent
+            serializableAppearanceObject2.BorderColor = System.Drawing.Color.Transparent
+            serializableAppearanceObject2.Options.UseBackColor = True
+            serializableAppearanceObject2.Options.UseBorderColor = True
+            serializableAppearanceObject3.BackColor = System.Drawing.Color.Transparent
+            serializableAppearanceObject3.BorderColor = System.Drawing.Color.Transparent
+            serializableAppearanceObject3.Options.UseBackColor = True
+            serializableAppearanceObject3.Options.UseBorderColor = True
+            serializableAppearanceObject4.BackColor = System.Drawing.Color.Transparent
+            serializableAppearanceObject4.BorderColor = System.Drawing.Color.Transparent
+            serializableAppearanceObject4.Options.UseBackColor = True
+            serializableAppearanceObject4.Options.UseBorderColor = True
+            editorButtonImageOptions2.Image = Global.DXApplication1.Properties.Resources.Column_Priority
+            Me.dateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo, "", -1, True, True, False, editorButtonImageOptions1, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default]), New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, False, True, editorButtonImageOptions2, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, serializableAppearanceObject6, serializableAppearanceObject7, serializableAppearanceObject8, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+            Me.dateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
             Me.dateEdit1.Properties.CellSize = New System.Drawing.Size(50, 50)
-            Me.dateEdit1.Properties.FirstDayOfWeek = System.DayOfWeek.Sunday
             Me.dateEdit1.Size = New System.Drawing.Size(247, 20)
             Me.dateEdit1.TabIndex = 0
-            ' 
-            ' imageCollection1
-            ' 
-            Me.imageCollection1.ImageStream = (DirectCast(resources.GetObject("imageCollection1.ImageStream"), DevExpress.Utils.ImageCollectionStreamer))
-            Me.imageCollection1.InsertGalleryImage("groupbyresource_16x16.png", "images/scheduling/groupbyresource_16x16.png", DevExpress.Images.ImageResourceCache.Default.GetImage("images/scheduling/groupbyresource_16x16.png"), 0)
-            Me.imageCollection1.Images.SetKeyName(0, "groupbyresource_16x16.png")
-            Me.imageCollection1.Images.SetKeyName(1, "Column_Priority.png")
+            AddHandler Me.dateEdit1.Popup, New System.EventHandler(AddressOf Me.dateEdit1_Popup)
+            AddHandler Me.dateEdit1.EditValueChanged, New System.EventHandler(AddressOf Me.dateEdit1_EditValueChanged)
             ' 
             ' flyoutPanel1
             ' 
@@ -111,16 +125,17 @@
             Me.gridControl1.Location = New System.Drawing.Point(0, 0)
             Me.gridControl1.MainView = Me.gridView1
             Me.gridControl1.Name = "gridControl1"
-            Me.gridControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() { Me.repositoryItemDateEdit1})
+            Me.gridControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.repositoryItemDateEdit1})
             Me.gridControl1.Size = New System.Drawing.Size(387, 475)
             Me.gridControl1.TabIndex = 2
-            Me.gridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() { Me.gridView1})
+            Me.gridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.gridView1})
             ' 
             ' gridView1
             ' 
-            Me.gridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() { Me.gridColumn1, Me.gridColumn2, Me.gridColumn3})
+            Me.gridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.gridColumn1, Me.gridColumn2, Me.gridColumn3})
             Me.gridView1.GridControl = Me.gridControl1
             Me.gridView1.Name = "gridView1"
+            AddHandler Me.gridView1.CustomDrawCell, New DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventHandler(AddressOf Me.gridView1_CustomDrawCell)
             ' 
             ' gridColumn1
             ' 
@@ -150,12 +165,8 @@
             ' repositoryItemDateEdit1
             ' 
             Me.repositoryItemDateEdit1.AutoHeight = False
-            Me.repositoryItemDateEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { _
-                New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo), _
-                New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, False, True, DevExpress.XtraEditors.ImageLocation.MiddleCenter, Nothing, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject3, "", Nothing, Nothing, True) _
-            })
-            Me.repositoryItemDateEdit1.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-            Me.repositoryItemDateEdit1.FirstDayOfWeek = System.DayOfWeek.Sunday
+            Me.repositoryItemDateEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo), New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, False, True, editorButtonImageOptions3, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+            Me.repositoryItemDateEdit1.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
             Me.repositoryItemDateEdit1.Name = "repositoryItemDateEdit1"
             ' 
             ' Form1
@@ -168,36 +179,39 @@
             Me.Controls.Add(Me.dateEdit1)
             Me.Name = "Form1"
             Me.Text = "Form1"
-            DirectCast(Me.dateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.dateEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.imageCollection1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.flyoutPanel1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.dateEdit1.Properties.CalendarTimeProperties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.dateEdit1.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.flyoutPanel1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.flyoutPanel1.ResumeLayout(False)
-            DirectCast(Me.flyoutPanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.flyoutPanelControl1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.flyoutPanelControl1.ResumeLayout(False)
-            DirectCast(Me.memoEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.gridControl1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.gridView1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemDateEdit1.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemDateEdit1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.memoEdit1.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.gridControl1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.gridView1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.repositoryItemDateEdit1.CalendarTimeProperties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.repositoryItemDateEdit1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
-
         End Sub
 
-        #End Region
+#End Region
+        Private dateEdit1 As DevExpress.XtraEditors.DateEdit
 
-        Private WithEvents dateEdit1 As DevExpress.XtraEditors.DateEdit
         Private flyoutPanel1 As DevExpress.Utils.FlyoutPanel
-        Private flyoutPanelControl1 As DevExpress.Utils.FlyoutPanelControl
-        Private memoEdit1 As DevExpress.XtraEditors.MemoEdit
-        Private gridControl1 As DevExpress.XtraGrid.GridControl
-        Private WithEvents gridView1 As DevExpress.XtraGrid.Views.Grid.GridView
-        Private gridColumn1 As DevExpress.XtraGrid.Columns.GridColumn
-        Private gridColumn2 As DevExpress.XtraGrid.Columns.GridColumn
-        Private gridColumn3 As DevExpress.XtraGrid.Columns.GridColumn
-        Private repositoryItemDateEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemDateEdit
-        Private imageCollection1 As DevExpress.Utils.ImageCollection
 
+        Private flyoutPanelControl1 As DevExpress.Utils.FlyoutPanelControl
+
+        Private memoEdit1 As DevExpress.XtraEditors.MemoEdit
+
+        Private gridControl1 As DevExpress.XtraGrid.GridControl
+
+        Private gridView1 As DevExpress.XtraGrid.Views.Grid.GridView
+
+        Private gridColumn1 As DevExpress.XtraGrid.Columns.GridColumn
+
+        Private gridColumn2 As DevExpress.XtraGrid.Columns.GridColumn
+
+        Private gridColumn3 As DevExpress.XtraGrid.Columns.GridColumn
+
+        Private repositoryItemDateEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemDateEdit
     End Class
 End Namespace
-
